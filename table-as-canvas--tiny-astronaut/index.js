@@ -1,6 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
   console.log("hello");
-  const $app = document.querySelector("#app");
 
   const tableWidth = 400;
   const tableHeight = 400;
@@ -33,7 +32,7 @@ window.addEventListener("DOMContentLoaded", () => {
       square.style.height = `${squareWidth}px`;
       
       square.style.color = `#FFFFFF`;
-      square.style.backgroundColor = `#242424`;
+      square.style.backgroundColor = `#131313`;
 
       // add the spaceship if this is the row 
       if(x === spaceshipRow && y === spaceshipColumn){
